@@ -17,7 +17,7 @@ function calculateTip () {
 	total = Math.round(total * 100) / 100;
 	total = total.toFixed(2);
 	document.getElementById("totalTip").style.display ="block";
-	document.getElementById("tip").innerHtml = total;
+	document.getElementById("tip").innerHTML = total;
 };
 
 document.getElementById("totalTip").style.display = "none";
